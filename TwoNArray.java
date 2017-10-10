@@ -1,5 +1,9 @@
 /**
  * Created by qpan on 8/31/2017.
+ *
+ * Give a list of key value pairs, [key, value, key , value, ...]. Given a key, return the value, if doesn't exist, return -1
+ * input [0, 1, 2, 3, 4, 5, 6, -1] , key = 0
+ * output 1
  */
 public class TwoNArray {
     public static void main(String []args){

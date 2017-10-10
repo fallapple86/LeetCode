@@ -2,6 +2,9 @@ import java.util.HashMap;
 
 /**
  * Created by qpan on 9/28/2017.
+ *
+ * Given an integer, convert it to a roman numeral.
+ * Input is guaranteed to be within the range from 1 to 3999.
  */
 public class IntToRoman {
     public String intToRoman(int num){
