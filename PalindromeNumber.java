@@ -1,5 +1,7 @@
 /**
  * Created by qpan on 9/4/2017.
+ *
+ * Determine whether an integer is a palindrome. Do this without extra space.
  */
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {
@@ -16,6 +18,7 @@ public class PalindromeNumber {
         return false;
     }
 
+    // Solution got from LeetCode
     public boolean isPalindrome1(int x) {
         // Special cases:
         // As discussed above, when x < 0, x is not a palindrome.
@@ -40,7 +43,7 @@ public class PalindromeNumber {
 
 
 
-        public static void main(String[] args) throws Exception
+    public static void main(String[] args) throws Exception
     {
         PalindromeNumber palindromeNumber = new PalindromeNumber();
 

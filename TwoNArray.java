@@ -7,8 +7,6 @@ public class TwoNArray {
         int key = 0;
 
         int v = searchkv(kv, key);
-
-
         System.out.println(v);
     }
 

@@ -1,5 +1,8 @@
 /**
  * Created by qpan on 9/4/2017.
+ *
+ * Given an integer, convert it to a roman numeral.
+ * Input is guaranteed to be within the range from 1 to 3999
  */
 public class ReverseInteger {
     public int reverse(int x) {
@@ -23,6 +26,7 @@ public class ReverseInteger {
         return result;
     }
 
+    //Solution from LeetCode
     public int reverse1(int x)
     {
         int result = 0;

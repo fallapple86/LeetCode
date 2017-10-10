@@ -2,6 +2,10 @@ import java.util.HashMap;
 
 /**
  * Created by qpan on 9/2/2017.
+ *
+ * Given a string, find the length of the longest substring without repeating characters.
+ *
+ * Given "abcabcbb", the answer is "abc", which the length is 3.
  */
 public class LongestSubstring {
 

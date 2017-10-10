@@ -38,6 +38,7 @@ public class StringToInteger {
         return result;
     }
 
+    //Solution from LeetCode
     public int myAtoi1(String str) {
         int index = 0, sign = 1, total = 0;
         //1. Empty string

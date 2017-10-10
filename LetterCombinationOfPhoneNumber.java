@@ -2,6 +2,13 @@ import java.util.*;
 
 /**
  * Created by qpan on 8/24/2017.
+ *
+ * Given a digit string, return all possible letter combinations that the number could represent.
+ * A mapping of digit to letters is just like on the telephone buttons.
+ *
+ * Input:Digit string "23"
+ * Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+ *
  */
 public class LetterCombinationOfPhoneNumber {
     public List<String> digitMapping(String digit){
@@ -10,27 +17,6 @@ public class LetterCombinationOfPhoneNumber {
         int index = Integer.parseInt(digit);
 
         return Arrays.asList(mapping[index].split(""));
-
-//        switch(digit){
-//            case "2":
-//                return new ArrayList<>(Arrays.asList("a", "b", "c"));
-//            case "3":
-//                return new ArrayList<>(Arrays.asList("d", "e", "f"));
-//            case "4":
-//                return new ArrayList<>(Arrays.asList("g", "h", "i"));
-//            case "5":
-//                return new ArrayList<>(Arrays.asList("j", "k", "l"));
-//            case "6":
-//                return new ArrayList<>(Arrays.asList( "m", "n", "o"));
-//            case "7":
-//                return new ArrayList<>(Arrays.asList("p", "q", "r", "s"));
-//            case "8":
-//                return new ArrayList<>(Arrays.asList("t", "u", "v"));
-//            case "9":
-//                return new ArrayList<>(Arrays.asList("w", "x", "y", "z"));
-//            default:
-//                return null;
-//        }
     }
 
     public List<String> matrixProduct(List<String> lst1, List<String> lst2){
@@ -89,14 +75,11 @@ public class LetterCombinationOfPhoneNumber {
 
     public static void main(String[] args) throws Exception
     {
-//        LetterCombinationOfPhoneNumber letter = new LetterCombinationOfPhoneNumber();
-//        List<String> output = letter.letterCombinations("054");
-//        System.out.println(output.size());
-//        for(String str : output){
-//            System.out.println(str);
-//        }
-
-
-
+        LetterCombinationOfPhoneNumber letter = new LetterCombinationOfPhoneNumber();
+        List<String> output = letter.letterCombinations("054");
+        System.out.println(output.size());
+        for(String str : output){
+            System.out.println(str);
+        }
     }
 }

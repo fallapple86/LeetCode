@@ -1,5 +1,10 @@
 /**
  * Created by qpan on 9/28/2017.
+ *
+ * Find two Y values that forms a maximum rectangle (|X| * |Y|) area given a list of Y values
+ *
+ * Inputs [2, 4, 5, 3, 2, 1]
+ * ouput 8
  */
 public class MaxArea {
     public int maxArea(int[] height){
